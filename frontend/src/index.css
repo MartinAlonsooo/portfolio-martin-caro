@@ -1,0 +1,106 @@
+/* =========================
+   RESET
+========================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* =========================
+   ROOT
+========================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* =========================
+   BODY
+========================= */
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+
+  font-family:
+    'Inter',
+    'Segoe UI',
+    sans-serif;
+
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(37, 99, 235, 0.35),
+      transparent 35%
+    ),
+
+    radial-gradient(
+      circle at bottom right,
+      rgba(14, 165, 233, 0.20),
+      transparent 40%
+    ),
+
+    #020617;
+
+  color: white;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* =========================
+   SCROLLBAR
+========================= */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2563eb;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #38bdf8;
+}
+
+/* =========================
+   LINKS
+========================= */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =========================
+   IMAGES
+========================= */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* =========================
+   SELECTION
+========================= */
+
+::selection {
+  background: #2563eb;
+  color: white;
+}
