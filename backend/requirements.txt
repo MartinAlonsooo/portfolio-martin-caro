@@ -12,9 +12,11 @@ djangorestframework==3.16.1
 djangorestframework_simplejwt==5.5.1
 docker==7.1.0
 feedparser==6.0.12
+gunicorn==26.0.0
 idna==3.10
 mysql==0.0.3
 mysqlclient==2.2.8
+packaging==26.2
 pillow==12.0.0
 pycparser==2.23
 PyJWT==2.10.1
