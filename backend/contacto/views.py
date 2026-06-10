@@ -3,5 +3,5 @@ from .models import Contacto
 from .serializers import ContactoSerializer
 
 class ContactoViewSet(viewsets.ModelViewSet):
-    queryset = Contacto.objects.all().order_by('-fecha')
+    queryset = Contacto.objects.all()
     serializer_class = ContactoSerializer

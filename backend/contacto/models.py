@@ -6,5 +6,8 @@ class Contacto(models.Model):
     mensaje = models.TextField()
     fecha = models.DateTimeField(auto_now_add=True)
 
+    class Meta:
+        ordering = ['-fecha']
+
     def __str__(self):
-        return self.nombre
+        return f"{self.nombre} - {self.correo}"
